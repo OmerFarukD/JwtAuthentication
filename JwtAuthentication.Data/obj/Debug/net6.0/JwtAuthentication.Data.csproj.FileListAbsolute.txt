@@ -1,0 +1,17 @@
+C:\Users\omerc\RiderProjects\JwtAuthentication\JwtAuthentication.Data\bin\Debug\net6.0\JwtAuthentication.Data.deps.json
+C:\Users\omerc\RiderProjects\JwtAuthentication\JwtAuthentication.Data\bin\Debug\net6.0\JwtAuthentication.Data.dll
+C:\Users\omerc\RiderProjects\JwtAuthentication\JwtAuthentication.Data\bin\Debug\net6.0\JwtAuthentication.Data.pdb
+C:\Users\omerc\RiderProjects\JwtAuthentication\JwtAuthentication.Data\obj\Debug\net6.0\JwtAuthentication.Data.csproj.AssemblyReference.cache
+C:\Users\omerc\RiderProjects\JwtAuthentication\JwtAuthentication.Data\obj\Debug\net6.0\JwtAuthentication.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\omerc\RiderProjects\JwtAuthentication\JwtAuthentication.Data\obj\Debug\net6.0\JwtAuthentication.Data.AssemblyInfoInputs.cache
+C:\Users\omerc\RiderProjects\JwtAuthentication\JwtAuthentication.Data\obj\Debug\net6.0\JwtAuthentication.Data.AssemblyInfo.cs
+C:\Users\omerc\RiderProjects\JwtAuthentication\JwtAuthentication.Data\obj\Debug\net6.0\JwtAuthentication.Data.csproj.CoreCompileInputs.cache
+C:\Users\omerc\RiderProjects\JwtAuthentication\JwtAuthentication.Data\obj\Debug\net6.0\JwtAuthentication.Data.dll
+C:\Users\omerc\RiderProjects\JwtAuthentication\JwtAuthentication.Data\obj\Debug\net6.0\refint\JwtAuthentication.Data.dll
+C:\Users\omerc\RiderProjects\JwtAuthentication\JwtAuthentication.Data\obj\Debug\net6.0\JwtAuthentication.Data.pdb
+C:\Users\omerc\RiderProjects\JwtAuthentication\JwtAuthentication.Data\obj\Debug\net6.0\ref\JwtAuthentication.Data.dll
+C:\Users\omerc\RiderProjects\JwtAuthentication\JwtAuthentication.Data\bin\Debug\net6.0\JwtAuthentication.Core.dll
+C:\Users\omerc\RiderProjects\JwtAuthentication\JwtAuthentication.Data\bin\Debug\net6.0\SharedLibrary.dll
+C:\Users\omerc\RiderProjects\JwtAuthentication\JwtAuthentication.Data\bin\Debug\net6.0\JwtAuthentication.Core.pdb
+C:\Users\omerc\RiderProjects\JwtAuthentication\JwtAuthentication.Data\bin\Debug\net6.0\SharedLibrary.pdb
+C:\Users\omerc\RiderProjects\JwtAuthentication\JwtAuthentication.Data\obj\Debug\net6.0\JwtAuthentication.Data.csproj.CopyComplete

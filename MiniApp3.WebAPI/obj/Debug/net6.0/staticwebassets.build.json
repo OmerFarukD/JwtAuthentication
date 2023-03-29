@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "RDo3BVi45z1cyeOI7+BinPZKxBR/RbuKEjdoQZx/o9g=",
+  "Source": "MiniApp3.WebAPI",
+  "BasePath": "_content/MiniApp3.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

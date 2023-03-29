@@ -1,0 +1,15 @@
+C:\Users\omerc\RiderProjects\JwtAuthentication\JwtAuthentication.Core\bin\Debug\net6.0\JwtAuthentication.Core.deps.json
+C:\Users\omerc\RiderProjects\JwtAuthentication\JwtAuthentication.Core\bin\Debug\net6.0\JwtAuthentication.Core.dll
+C:\Users\omerc\RiderProjects\JwtAuthentication\JwtAuthentication.Core\bin\Debug\net6.0\JwtAuthentication.Core.pdb
+C:\Users\omerc\RiderProjects\JwtAuthentication\JwtAuthentication.Core\obj\Debug\net6.0\JwtAuthentication.Core.csproj.AssemblyReference.cache
+C:\Users\omerc\RiderProjects\JwtAuthentication\JwtAuthentication.Core\obj\Debug\net6.0\JwtAuthentication.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\omerc\RiderProjects\JwtAuthentication\JwtAuthentication.Core\obj\Debug\net6.0\JwtAuthentication.Core.AssemblyInfoInputs.cache
+C:\Users\omerc\RiderProjects\JwtAuthentication\JwtAuthentication.Core\obj\Debug\net6.0\JwtAuthentication.Core.AssemblyInfo.cs
+C:\Users\omerc\RiderProjects\JwtAuthentication\JwtAuthentication.Core\obj\Debug\net6.0\JwtAuthentication.Core.csproj.CoreCompileInputs.cache
+C:\Users\omerc\RiderProjects\JwtAuthentication\JwtAuthentication.Core\obj\Debug\net6.0\JwtAuthentication.Core.dll
+C:\Users\omerc\RiderProjects\JwtAuthentication\JwtAuthentication.Core\obj\Debug\net6.0\refint\JwtAuthentication.Core.dll
+C:\Users\omerc\RiderProjects\JwtAuthentication\JwtAuthentication.Core\obj\Debug\net6.0\JwtAuthentication.Core.pdb
+C:\Users\omerc\RiderProjects\JwtAuthentication\JwtAuthentication.Core\obj\Debug\net6.0\ref\JwtAuthentication.Core.dll
+C:\Users\omerc\RiderProjects\JwtAuthentication\JwtAuthentication.Core\bin\Debug\net6.0\SharedLibrary.dll
+C:\Users\omerc\RiderProjects\JwtAuthentication\JwtAuthentication.Core\bin\Debug\net6.0\SharedLibrary.pdb
+C:\Users\omerc\RiderProjects\JwtAuthentication\JwtAuthentication.Core\obj\Debug\net6.0\JwtAuthentication.Core.csproj.CopyComplete
