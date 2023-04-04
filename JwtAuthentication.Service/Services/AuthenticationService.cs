@@ -58,16 +58,42 @@ public class AuthenticationService: IAuthenticationService
 
     public async Task<Response<TokenDto>> CreateTokenByRefreshTokenAsync(string refreshToken)
     {
-        throw new NotImplementedException();
+        var existRefreshTokens = await _serviceGeneric.Where(x => x.Code.Equals(refreshToken)).SingleOrDefaultAsync();
+        if(existRefreshTokens is null) return Response<TokenDto>.Fail("Refresh token is not found",400,true);
+
+
+        var user = await _userManager.FindByIdAsync(existRefreshTokens.UserId);
+        if(user is null ) return Response<TokenDto>.Fail("User is not found",400,true);
+
+        var tokenDto = _tokenService.CreateToken(user);
+        existRefreshTokens.Code = tokenDto.RefreshToken;
+        existRefreshTokens.Expiration = tokenDto.RefreshTokenExpiration;
+
+        await _unitOfWork.SaveChangesAsync();
+
+        return Response<TokenDto>.Success(tokenDto, 200);
     }
 
     public async Task<Response<NoDataDto>> RevokeRefreshTokenAsync(string refreshToken)
     {
-        throw new NotImplementedException();
+        var existRefreshToken = await _serviceGeneric.Where(x => x.Code.Equals(refreshToken)).SingleOrDefaultAsync();
+        if(existRefreshToken is null) return Response<NoDataDto>.Fail("Refresh token is not found",400,true);
+        
+        _serviceGeneric.Remove(existRefreshToken);
+
+        await _unitOfWork.SaveChangesAsync();
+        
+        return Response<NoDataDto>.Success(200);
+
     }
 
-    public async Task<Response<ClientTokenDto>> CreateTokenByClientAsync(ClientLoginDto clientLoginDto)
+    public  Response<ClientTokenDto> CreateTokenByClient(ClientLoginDto clientLoginDto)
     {
-        throw new NotImplementedException();
+        var client = _clients.SingleOrDefault(x => x.Id.Equals(clientLoginDto.ClientId)&& x.Secret.Equals(clientLoginDto.ClientSecret));
+        if(client is null) return Response<ClientTokenDto>.Fail("Client Id or Client Secret is not found",400,true);
+
+        var token = _tokenService.CreateByClient(client);
+
+        return Response<ClientTokenDto>.Success(token,200);
     }
 }
