@@ -11,7 +11,7 @@ public class Response<T> where T : class
     [JsonIgnore]
     public bool IsSuccessful { get; set; }
 
-    public static Response<T> Succes(T data, int statusCode) => new Response<T> {Data = data,StatusCode = statusCode,IsSuccessful = true};
+    public static Response<T> Success(T data, int statusCode) => new Response<T> {Data = data,StatusCode = statusCode,IsSuccessful = true};
     public static Response<T> Success(int statusCode) => new Response<T> {Data =default ,StatusCode = statusCode,IsSuccessful = true};
     public static Response<T> Fail(ErrorDto errorDto, int statusCode) => new Response<T> {Error = errorDto,StatusCode = statusCode,IsSuccessful = false};
 
