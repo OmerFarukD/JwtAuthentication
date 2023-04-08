@@ -4,6 +4,159 @@
     "C:\\Users\\omerc\\RiderProjects\\JwtAuthentication\\MiniApp.WebAPI\\MiniApp.WebAPI.csproj": {}
   },
   "projects": {
+    "C:\\Users\\omerc\\RiderProjects\\JwtAuthentication\\JwtAuthentication.Core\\JwtAuthentication.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\omerc\\RiderProjects\\JwtAuthentication\\JwtAuthentication.Core\\JwtAuthentication.Core.csproj",
+        "projectName": "JwtAuthentication.Core",
+        "projectPath": "C:\\Users\\omerc\\RiderProjects\\JwtAuthentication\\JwtAuthentication.Core\\JwtAuthentication.Core.csproj",
+        "packagesPath": "C:\\Users\\omerc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\omerc\\RiderProjects\\JwtAuthentication\\JwtAuthentication.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\omerc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\omerc\\RiderProjects\\JwtAuthentication\\SharedLibrary\\SharedLibrary.csproj": {
+                "projectPath": "C:\\Users\\omerc\\RiderProjects\\JwtAuthentication\\SharedLibrary\\SharedLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\omerc\\RiderProjects\\JwtAuthentication\\JwtAuthentication.Service\\JwtAuthentication.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\omerc\\RiderProjects\\JwtAuthentication\\JwtAuthentication.Service\\JwtAuthentication.Service.csproj",
+        "projectName": "JwtAuthentication.Service",
+        "projectPath": "C:\\Users\\omerc\\RiderProjects\\JwtAuthentication\\JwtAuthentication.Service\\JwtAuthentication.Service.csproj",
+        "packagesPath": "C:\\Users\\omerc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\omerc\\RiderProjects\\JwtAuthentication\\JwtAuthentication.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\omerc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\omerc\\RiderProjects\\JwtAuthentication\\JwtAuthentication.Core\\JwtAuthentication.Core.csproj": {
+                "projectPath": "C:\\Users\\omerc\\RiderProjects\\JwtAuthentication\\JwtAuthentication.Core\\JwtAuthentication.Core.csproj"
+              },
+              "C:\\Users\\omerc\\RiderProjects\\JwtAuthentication\\SharedLibrary\\SharedLibrary.csproj": {
+                "projectPath": "C:\\Users\\omerc\\RiderProjects\\JwtAuthentication\\SharedLibrary\\SharedLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.IdentityModel.JsonWebTokens": {
+              "target": "Package",
+              "version": "[6.10.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.10.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\omerc\\RiderProjects\\JwtAuthentication\\MiniApp.WebAPI\\MiniApp.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -12,6 +165,85 @@
         "projectPath": "C:\\Users\\omerc\\RiderProjects\\JwtAuthentication\\MiniApp.WebAPI\\MiniApp.WebAPI.csproj",
         "packagesPath": "C:\\Users\\omerc\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\omerc\\RiderProjects\\JwtAuthentication\\MiniApp.WebAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\omerc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\omerc\\RiderProjects\\JwtAuthentication\\JwtAuthentication.Service\\JwtAuthentication.Service.csproj": {
+                "projectPath": "C:\\Users\\omerc\\RiderProjects\\JwtAuthentication\\JwtAuthentication.Service\\JwtAuthentication.Service.csproj"
+              },
+              "C:\\Users\\omerc\\RiderProjects\\JwtAuthentication\\SharedLibrary\\SharedLibrary.csproj": {
+                "projectPath": "C:\\Users\\omerc\\RiderProjects\\JwtAuthentication\\SharedLibrary\\SharedLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\omerc\\RiderProjects\\JwtAuthentication\\SharedLibrary\\SharedLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\omerc\\RiderProjects\\JwtAuthentication\\SharedLibrary\\SharedLibrary.csproj",
+        "projectName": "SharedLibrary",
+        "projectPath": "C:\\Users\\omerc\\RiderProjects\\JwtAuthentication\\SharedLibrary\\SharedLibrary.csproj",
+        "packagesPath": "C:\\Users\\omerc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\omerc\\RiderProjects\\JwtAuthentication\\SharedLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,9 +276,13 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Swashbuckle.AspNetCore": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
@@ -61,9 +297,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

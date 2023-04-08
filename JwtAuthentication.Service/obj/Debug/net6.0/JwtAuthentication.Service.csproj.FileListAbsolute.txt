@@ -10,3 +10,8 @@ C:\Users\omerc\RiderProjects\JwtAuthentication\JwtAuthentication.Service\obj\Deb
 C:\Users\omerc\RiderProjects\JwtAuthentication\JwtAuthentication.Service\obj\Debug\net6.0\refint\JwtAuthentication.Service.dll
 C:\Users\omerc\RiderProjects\JwtAuthentication\JwtAuthentication.Service\obj\Debug\net6.0\JwtAuthentication.Service.pdb
 C:\Users\omerc\RiderProjects\JwtAuthentication\JwtAuthentication.Service\obj\Debug\net6.0\ref\JwtAuthentication.Service.dll
+C:\Users\omerc\RiderProjects\JwtAuthentication\JwtAuthentication.Service\bin\Debug\net6.0\JwtAuthentication.Core.dll
+C:\Users\omerc\RiderProjects\JwtAuthentication\JwtAuthentication.Service\bin\Debug\net6.0\SharedLibrary.dll
+C:\Users\omerc\RiderProjects\JwtAuthentication\JwtAuthentication.Service\bin\Debug\net6.0\JwtAuthentication.Core.pdb
+C:\Users\omerc\RiderProjects\JwtAuthentication\JwtAuthentication.Service\bin\Debug\net6.0\SharedLibrary.pdb
+C:\Users\omerc\RiderProjects\JwtAuthentication\JwtAuthentication.Service\obj\Debug\net6.0\JwtAuthentication.Service.csproj.CopyComplete

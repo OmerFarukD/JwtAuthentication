@@ -53,7 +53,7 @@ public class TokenService : ITokenService
             new Claim(JwtRegisteredClaimNames.Jti, new Guid().ToString()),
             new Claim(JwtRegisteredClaimNames.Sub,client.Id.ToString())
         };
-        claims.AddRange(client.Audiences.Select(x=>new Claim(JwtRegisteredClaimNames.Aud,x)));
+        claims.AddRange(client.Audience.Select(x=>new Claim(JwtRegisteredClaimNames.Aud,x)));
         return claims;
     }
     public TokenDto CreateToken(UserApp userApp)

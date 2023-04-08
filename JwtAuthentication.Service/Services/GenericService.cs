@@ -14,6 +14,12 @@ public class GenericService<TEntity,TDto> : IServiceGeneric<TEntity,TDto> where 
 
     private readonly IGenericRepository<TEntity> _genericRepository;
 
+    public GenericService(IUnitOfWork unitOfWork, IGenericRepository<TEntity> genericRepository)
+    {
+        _unitOfWork = unitOfWork;
+        _genericRepository = genericRepository;
+    }
+
 
     public async Task<Response<TDto>> GetByIdAsync(int id)
     {

@@ -2,7 +2,7 @@
 
 public class Client
 {
-    public int Id { get; set; }
+    public string Id { get; set; }
     public string? Secret { get; set; }
-    public List<string> Audiences { get; set; } = new();
+    public List<string> Audience { get; set; } = new();
 }
