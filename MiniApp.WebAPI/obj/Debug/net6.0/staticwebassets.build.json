@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "pVkUwk6zXTl0ZVPpG5vRP2J6YfWvkDE23R1nSFuyAEg=",
+  "Hash": "Y9r2Qt6Mj9m9t/0aCopMtTtk4B+h4OhJWs2yu+XyZvc=",
   "Source": "MiniApp.WebAPI",
   "BasePath": "_content/MiniApp.WebAPI",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\omerc\\RiderProjects\\JwtAuthentication\\JwtAuthentication.WebAPI\\JwtAuthentication.WebAPI.csproj",
+      "Version": 2,
+      "Source": "JwtAuthentication.WebAPI",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [],
   "Assets": []
 }
